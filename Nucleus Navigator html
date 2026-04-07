@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nucleus Navigator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🧬 Nucleus Navigator</h1>
+
+<div class="game-box">
+    <p id="question">
+        What is the control center of the cell?
+    </p>
+
+    <div class="options">
+        <button onclick="checkAnswer('A')">A. Nucleus</button>
+        <button onclick="checkAnswer('B')">B. Mitochondria</button>
+        <button onclick="checkAnswer('C')">C. Ribosome</button>
+        <button onclick="checkAnswer('D')">D. Cytoplasm</button>
+    </div>
+
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
