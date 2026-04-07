@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e6f7ff;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.game-box {
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.options button {
+    display: block;
+    margin: 8px auto;
+    padding: 8px 15px;
+    width: 80%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.options button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
