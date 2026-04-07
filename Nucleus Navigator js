@@ -1,0 +1,11 @@
+function checkAnswer(answer) {
+    let result = document.getElementById("result");
+
+    if (answer === "A") {
+        result.innerHTML = "✅ Correct! The nucleus is the control center of the cell.";
+        result.style.color = "green";
+    } else {
+        result.innerHTML = "❌ Wrong! Try again.";
+        result.style.color = "red";
+    }
+}
